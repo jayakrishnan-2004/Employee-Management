@@ -1,0 +1,29 @@
+[
+  {
+    "Id": 1,
+    "Name": "K Jayakrishnan ",
+    "Age": 22,
+    "Phone": "7902278723",
+    "Email": "kjayakrishnan2004@gmail.com",
+    "Post": "HR",
+    "Salary": 100000
+  },
+  {
+    "Id": 2,
+    "Name": "Sanu",
+    "Age": 20,
+    "Phone": "7902278723",
+    "Email": "sanu@gmail.com",
+    "Post": "HR",
+    "Salary": 50000
+  },
+  {
+    "Id": 3,
+    "Name": "app",
+    "Age": 18,
+    "Phone": "9207697578",
+    "Email": "app@gmail.com",
+    "Post": "PILOT",
+    "Salary": 999990000000000000
+  }
+]

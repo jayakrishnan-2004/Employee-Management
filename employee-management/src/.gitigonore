@@ -1,0 +1,11 @@
+
+# .NET build files
+**/bin/
+**/obj/
+
+# React dependencies
+**/node_modules/
+**/dist/
+
+# Visual Studio
+.vs/

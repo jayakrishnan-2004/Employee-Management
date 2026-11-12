@@ -1,0 +1,203 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #ffffff;
+  color: #171717;
+}
+
+.container {
+  width: 95%;
+  max-width: 1400px;
+  margin: 35px auto;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #171717;
+}
+
+.form-container,
+.table-container {
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  border-radius: 8px;
+  padding: 25px;
+  margin-bottom: 25px;
+}
+
+h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  outline: none;
+  font-size: 14px;
+}
+
+input:focus {
+  border-color: #f47721;
+}
+
+.form-buttons {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.add-btn {
+  background: #f47721;
+  color: white;
+}
+
+.cancel-btn {
+  background: #171717;
+  color: white;
+}
+
+.table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  min-width: 900px;
+  border-collapse: collapse;
+}
+
+th {
+  background: #fff1e7;
+  color: #171717;
+  padding: 14px 12px;
+  text-align: left;
+  font-size: 13px;
+}
+
+td {
+  padding: 13px 12px;
+  border-bottom: 1px solid #eeeeee;
+  font-size: 13px;
+}
+
+.no-data {
+  text-align: center;
+  padding: 25px;
+  color: #777777;
+}
+
+.action-buttons {
+  white-space: nowrap;
+}
+
+.edit-btn {
+  background: #f47721;
+  color: white;
+  margin-right: 5px;
+}
+
+.delete-btn {
+  background: #171717;
+  color: white;
+}
+
+button:hover {
+  opacity: 0.85;
+}
+
+@media (max-width: 768px) {
+  .form-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .container {
+    width: 96%;
+    margin: 20px auto;
+  }
+
+  .form-container,
+  .table-container {
+    padding: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .form-grid {
+    grid-template-columns: 1fr;
+  }
+
+  h1 {
+    font-size: 23px;
+  }
+}
+
+
+/* Square Corner Design */
+
+input,
+select,
+textarea {
+  border-radius: 0 !important;
+}
+
+button {
+  border-radius: 0 !important;
+}
+
+.form-container,
+.table-container {
+  border-radius: 0 !important;
+}
+
+table {
+  border-radius: 0 !important;
+}
+
+.add-btn,
+.edit-btn,
+.delete-btn,
+.cancel-btn {
+  border-radius: 0 !important;
+}
+
+/* Sharp input borders */
+input {
+  border: 1px solid #cccccc;
+}
+
+/* Square button design */
+button {
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+/* Remove rounded card corners */
+.container {
+  border-radius: 0 !important;
+}
